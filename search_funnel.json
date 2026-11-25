@@ -1,0 +1,57 @@
+{
+ "search_window": "2023-01-01 to 2026-10-05",
+ "databases": [
+  "Scopus",
+  "Web of Science",
+  "IEEE Xplore",
+  "ACM Digital Library",
+  "SpringerLink",
+  "arXiv"
+ ],
+ "records_total": 2408,
+ "duplicates_removed": 296,
+ "unique_total": 2112,
+ "multi_source": 175,
+ "per_source_records": {
+  "acm": 61,
+  "arxiv": 1106,
+  "ieee": 71,
+  "scopus": 254,
+  "springer": 810,
+  "wos": 106
+ },
+ "title_abstract": {
+  "screened": 2112,
+  "llm_include": 83,
+  "llm_exclude": 1617,
+  "llm_uncertain": 412,
+  "excluded_total": 2029,
+  "r1_final_include": 85,
+  "r1_final_exclude": 2027
+ },
+ "fulltext": {
+  "rows": 85,
+  "include": 79,
+  "exclude": 4,
+  "no_decision": 2
+ },
+ "snowball": {
+  "identified": 687,
+  "new_since_2023": 286,
+  "with_abstract": 250,
+  "by_source": {
+   "backward": 227,
+   "forward": 57,
+   "backward+forward": 2
+  },
+  "candidates": 11,
+  "include": 9,
+  "exclude": 2,
+  "excluded_ids": [
+   "C0067",
+   "C0187"
+  ]
+ },
+ "database_included": 79,
+ "total_included": 88
+}

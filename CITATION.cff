@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "LLM and Agentic AI for Software Dependency Management: A Systematic Mapping Study — Verification Data"
+message: >-
+  If you use these data, cite the systematic mapping study and this verification package.
+type: dataset
+version: 1.0.0
+date-released: 2026-11-25
+repository-code: https://github.com/StankovskiA/ai-dependency-management-sms
+authors:
+  - family-names: Stankovski
+    given-names: Aleksandar
+    affiliation: Universidad Politécnica de Madrid
+license:
+  - CC-BY-4.0
+  - MIT

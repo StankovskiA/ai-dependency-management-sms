@@ -1,0 +1,856 @@
+{
+  "files": {
+    "acm_bibtext_raw_results_abstract.bib": 47,
+    "acm_bibtext_raw_results_title.bib": 14,
+    "arxiv_v0.4_20261005.csv": 1106,
+    "ieeexplore_raw_results_q1.csv": 32,
+    "ieeexplore_raw_results_q2.csv": 39,
+    "scopus_raw_results.csv": 254,
+    "springerlink_raw_results.csv": 810,
+    "wos_raw_results.csv": 106
+  },
+  "records_total": 2408,
+  "unique_total": 2112,
+  "duplicates_removed": 296,
+  "per_source_records": {
+    "acm": 61,
+    "arxiv": 1106,
+    "ieee": 71,
+    "scopus": 254,
+    "springer": 810,
+    "wos": 106
+  },
+  "unique_multi_source": 175,
+  "duplicate_groups": {
+    "0": [
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion",
+      "LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion"
+    ],
+    "1": [
+      "When AI Code Doesn't Stick: An Empirical Study on Reverted Changes Introduced by AI Coding Agents",
+      "When AI Code Doesn’t Stick: An Empirical Study on Reverted Changes Introduced by AI Coding Agents"
+    ],
+    "2": [
+      "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+      "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+      "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+      "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation"
+    ],
+    "3": [
+      "Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions",
+      "Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions"
+    ],
+    "5": [
+      "Fixing Security Vulnerabilities with Agentic AI in OSS-Fuzz",
+      "Fixing Security Vulnerabilities with Agentic AI in OSS-Fuzz"
+    ],
+    "6": [
+      "VulnScopper: Unveiling Hidden Links Between Unseen Security Entities",
+      "VulnScopper: Unveiling Hidden Links Between Unseen Security Entities",
+      "VulnScopper: Unveiling Hidden Links Between Unseen Security Entities"
+    ],
+    "8": [
+      "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",
+      "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",
+      "Don't Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations"
+    ],
+    "9": [
+      "Evaluating Human-AI Partnership for LLM-based Code Migration",
+      "Evaluating Human-AI Partnership for LLM-based Code Migration",
+      "Evaluating Human-AI Partnership for LLM-based Code Migration",
+      "Evaluating Human-AI Partnership for LLM-based Code Migration"
+    ],
+    "10": [
+      "FSE-AIware Tool Competition 2026 - Agentic Based Python Dependency Resolution",
+      "FSE-AIware Tool Competition 2026 – Agentic Based Python Dependency Resolution",
+      "FSE-AIware Tool Competition 2026 – Agentic Based Python Dependency Resolution"
+    ],
+    "11": [
+      "Hybrid API Migration: A Marriage of Small API Mapping Models and Large Language Models",
+      "Hybrid API Migration: A Marriage of Small API Mapping Models and Large Language Models",
+      "Hybrid API Migration: A Marriage of Small API Mapping Models and Large Language Models"
+    ],
+    "12": [
+      "PMAT: Optimizing Action Generation Order in Multi-Agent Reinforcement Learning",
+      "PMAT: Optimizing Action Generation Order in Multi-Agent Reinforcement Learning",
+      "PMAT: Optimizing Action Generation Order in Multi-Agent Reinforcement Learning",
+      "PMAT: Optimizing Action Generation Order in Multi-Agent Reinforcement Learning"
+    ],
+    "13": [
+      "From Code to Execution: Multi-Agent GraphRAG for Automated Artifact Generation",
+      "From Code to Execution: Multi-Agent GraphRAG for Automated Artifact Generation",
+      "From Code to Execution: Multi-Agent GraphRAG for Automated Artifact Generation"
+    ],
+    "14": [
+      "MigrationBench: Repository-Level Code Migration Benchmark from Java 8",
+      "MigrationBench: Repository-Level Code Migration Benchmark from Java 8",
+      "MigrationBench: Repository-Level Code Migration Benchmark from Java 8"
+    ],
+    "15": [
+      "Environment-in-The-Loop: Rethinking Code Migration with LLM-based Agents",
+      "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents",
+      "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents",
+      "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents"
+    ],
+    "17": [
+      "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects",
+      "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects",
+      "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects",
+      "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects"
+    ],
+    "20": [
+      "Understanding the Rejection of Fixes Generated by Agentic Pull Requests - Insights from the AIDev Dataset",
+      "Understanding the Rejection of Fixes Generated by Agentic Pull Requests -- Insights from the AIDev Dataset",
+      "Understanding the Rejection of Fixes Generated by Agentic Pull Requests - Insights from the AIDev Dataset"
+    ],
+    "21": [
+      "Towards Automated Migration: High-Quality, Cost-Efficient Source Code Translation Using Large Language Models",
+      "Towards Automated Migration: High-Quality Source Code Translation Using Large Language Models",
+      "Towards Automated Migration: High-Quality Source Code Translation Using Large Language Models"
+    ],
+    "22": [
+      "SafeAIMerge: A Tool for Integrating DAST and LLM-Generated Security Feedback into GitHub Actions Workflows",
+      "SafeAIMerge: A Tool for Integrating DAST and LLM-Generated Security Feedback into GitHub Actions Workflows"
+    ],
+    "24": [
+      "MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution",
+      "MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution",
+      "MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution",
+      "MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution"
+    ],
+    "26": [
+      "CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building",
+      "CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building"
+    ],
+    "27": [
+      "The role of library versions in Developer-ChatGPT conversations",
+      "The role of library versions in Developer-ChatGPT conversations",
+      "The role of library versions in Developer-ChatGPT conversations",
+      "The role of library versions in Developer-ChatGPT conversations",
+      "The role of library versions in Developer-ChatGPT conversations"
+    ],
+    "28": [
+      "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant",
+      "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant",
+      "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant",
+      "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant"
+    ],
+    "29": [
+      "LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights",
+      "LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights",
+      "LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights"
+    ],
+    "30": [
+      "Bridging the Procedural Code Gap: Agentic Database Migration with Execution-Grounded Validation",
+      "Bridging the Procedural Code Gap: Agentic Database Migration with Execution-Grounded Validation"
+    ],
+    "31": [
+      "Automating Terraform Code Migration through Provider Evolution Knowledge",
+      "Automating Terraform Code Migration through Provider Evolution Knowledge"
+    ],
+    "32": [
+      "Automatic Library Migration Using Large Language Models: First Results",
+      "Automatic Library Migration Using Large Language Models: First Results",
+      "Automatic Library Migration Using Large Language Models: First Results",
+      "Automatic Library Migration Using Large Language Models: First Results"
+    ],
+    "33": [
+      "HWREx: AI-enabled Hardware Weakness and Risk Exploration and Storytelling Framework with LLM-assisted Mitigation Suggestion",
+      "HWREx: AI-enabled Hardware Weakness and Risk Exploration and Storytelling Framework with LLM-assisted Mitigation Suggestion",
+      "HWREx: AI-enabled Hardware Weakness and Risk Exploration and Storytelling Framework with LLM-assisted Mitigation Suggestion"
+    ],
+    "34": [
+      "FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration",
+      "FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration",
+      "FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration",
+      "FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration"
+    ],
+    "35": [
+      "IntelliRadar: A Comprehensive Platform to Pinpoint Malicious Packages from Cyber Intelligence",
+      "IntelliRadar: A Comprehensive Platform to Pinpoint Malicious Packages from Cyber Intelligence",
+      "IntelliRadar: A Comprehensive Platform to Pinpoint Malicious Package Information from Cyber Intelligence"
+    ],
+    "37": [
+      "Characterizing Self-Admitted Technical Debt Generated by AI Coding Agents",
+      "Characterizing Self-Admitted Technical Debt Generated by AI Coding Agents"
+    ],
+    "38": [
+      "PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation",
+      "PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation",
+      "PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation",
+      "PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation"
+    ],
+    "39": [
+      "Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation",
+      "Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation",
+      "Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation",
+      "Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation"
+    ],
+    "40": [
+      "Horizon: Robust Checks for SQL Migration Using LLMs",
+      "Horizon: Robust Checks for SQL Migration Using LLMs",
+      "Horizon: Robust Checks for SQL Migration Using LLMs"
+    ],
+    "41": [
+      "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)",
+      "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)",
+      "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)",
+      "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)"
+    ],
+    "42": [
+      "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration",
+      "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration"
+    ],
+    "43": [
+      "Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities",
+      "Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities",
+      "Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities"
+    ],
+    "44": [
+      "AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+      "AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+      "AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library"
+    ],
+    "45": [
+      "A Hybrid LLM-Guided Approach to Code Migration Using API-Derived Rules",
+      "A Hybrid LLM-Guided Approach to Code Migration Using API-Derived Rules",
+      "A Hybrid LLM-Guided Approach to Code Migration Using API-Derived Rules"
+    ],
+    "46": [
+      "Maltracker: A Fine-Grained NPM Malware Tracker Copiloted by LLM-Enhanced Dataset",
+      "Maltracker: A Fine-Grained NPM Malware Tracker Copiloted by LLM-Enhanced Dataset",
+      "Maltracker: A Fine-Grained NPM Malware Tracker Copiloted by LLM-Enhanced Dataset"
+    ],
+    "47": [
+      "CodingCare: AI Code Generation Security Framework for Common Vulnerability Mitigation",
+      "CodingCare: AI Code Generation Security Framework for Common Vulnerability Mitigation"
+    ],
+    "52": [
+      "Using Copilot Agent Mode to Automate Library Migration: A Quantitative Assessment",
+      "Using Copilot Agent Mode to Automate Library Migration: A Quantitative Assessment",
+      "Using Copilot Agent Mode to Automate Library Migration: A Quantitative Assessment"
+    ],
+    "61": [
+      "Byam: Fixing Breaking Dependency Updates with Large Language Models",
+      "Byam: Fixing Breaking Dependency Updates with Large Language Models",
+      "Byam: Fixing Breaking Dependency Updates with Large Language Models",
+      "Byam: Fixing Breaking Dependency Updates with Large Language Models"
+    ],
+    "65": [
+      "The Last Dependency Crusade: Solving Python Dependency Conflicts with LLMs",
+      "The Last Dependency Crusade: Solving Python Dependency Conflicts with LLMs",
+      "The Last Dependency Crusade: Solving Python Dependency Conflicts with LLMs"
+    ],
+    "70": [
+      "LLM Agents for Automated Dependency Upgrades",
+      "LLM Agents for Automated Dependency Upgrades",
+      "LLM Agents for Automated Dependency Upgrades",
+      "LLM Agents for Automated Dependency Upgrades"
+    ],
+    "71": [
+      "Analyzing and mitigating (with LLMs) the security misconfigurations of Helm charts from Artifact Hub",
+      "Analyzing and mitigating (with LLMs) the security misconfigurations of Helm charts from Artifact Hub",
+      "Analyzing and mitigating (with LLMs) the security misconfigurations of Helm charts from Artifact Hub",
+      "Analyzing and Mitigating (with LLMs) the Security Misconfigurations of Helm Charts from Artifact Hub"
+    ],
+    "80": [
+      "Can We Trust AI Agents? A Case Study of an LLM-Based Multi-Agent System for Ethical AI",
+      "Can We Trust AI Agents? A Case Study of an LLM-Based Multi-Agent System for Ethical AI"
+    ],
+    "83": [
+      "Cracking IoT security: can LLMs outsmart static analysis tools?",
+      "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?"
+    ],
+    "99": [
+      "From articles to code: on-demand generation of core algorithms from scientific publications",
+      "From articles to code: on-demand generation of core algorithms from scientific publications",
+      "From Articles to Code: On-Demand Generation of Core Algorithms from Scientific Publications"
+    ],
+    "105": [
+      "Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali",
+      "Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali",
+      "Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali"
+    ],
+    "109": [
+      "CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks",
+      "CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks",
+      "CausalMACE : Causality Empowered Multi-Agents in Minecraft Cooperative Tasks"
+    ],
+    "116": [
+      "TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks",
+      "TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks"
+    ],
+    "122": [
+      "Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery",
+      "Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery",
+      "Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery"
+    ],
+    "127": [
+      "What challenges do developers face in AI agent systems? An empirical study on Stack Overflow & GitHub issues",
+      "What challenges do developers face in AI agent systems? An empirical study on Stack Overflow & GitHub issues☆",
+      "What Challenges Do Developers Face in AI Agent Systems? An Empirical Study on Stack Overflow &amp; GitHub Issues"
+    ],
+    "129": [
+      "An empirical study of the evolution of GitHub actions workflows",
+      "An empirical study of the evolution of GitHub actions workflows",
+      "An Empirical Study of the Evolution of GitHub Actions Workflows"
+    ],
+    "132": [
+      "GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging",
+      "GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging",
+      "GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging"
+    ],
+    "136": [
+      "Automated Update of Android Deprecated API Usages With Large Language Models",
+      "Automated Update of Android Deprecated API Usages With Large Language Models",
+      "Automated Update of Android Deprecated API Usages With Large Language Models",
+      "Automated Update of Android Deprecated API Usages with Large Language Models"
+    ],
+    "138": [
+      "An Empirical Study of Python Library Migration Using Large Language Models",
+      "An Empirical Study of Python Library Migration Using Large Language Models",
+      "An Empirical Study of Python Library Migration Using Large Language Models",
+      "An Empirical Study of Python Library Migration Using Large Language Models"
+    ],
+    "150": [
+      "Large Language Model Unlearning for Source Code",
+      "Large Language Model Unlearning for Source Code",
+      "Large Language Model Unlearning for Source Code"
+    ],
+    "313": [
+      "From Helpful to Trustworthy: LLM Agents for Pair Programming",
+      "From Helpful to Trustworthy: LLM Agents for Pair Programming"
+    ],
+    "318": [
+      "Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution",
+      "Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution",
+      "Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution",
+      "Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution"
+    ],
+    "364": [
+      "ReCode: Updating Code API Knowledge with Reinforcement Learning",
+      "ReCode: Updating Code API Knowledge with Reinforcement Learning",
+      "ReCode: Updating Code API Knowledge with Reinforcement Learning"
+    ],
+    "457": [
+      "KCoEvo: A Knowledge Graph Augmented Framework for&#xa0;Evolutionary Code Generation",
+      "KCoEvo: A Knowledge Graph Augmented Framework for Evolutionary Code Generation"
+    ],
+    "460": [
+      "Towards Refining Developer Questions Using LLM-Based Named Entity Recognition for Developer Chatroom Conversations",
+      "Towards Refining Developer Questions Using LLM-Based Named Entity Recognition for Developer Chatroom Conversations",
+      "Towards Refining Developer Questions Using LLM-Based Named Entity Recognition for Developer Chatroom Conversations",
+      "Towards Refining Developer Questions using LLM-Based Named Entity Recognition for Developer Chatroom Conversations"
+    ],
+    "475": [
+      "AgentSight: System-Level Observability for AI Agents Using eBPF",
+      "AgentSight: System-Level Observability for AI Agents Using eBPF",
+      "AgentSight: System-Level Observability for AI Agents Using eBPF"
+    ],
+    "477": [
+      "VecIntrinBench: Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector",
+      "VecIntrinBench: Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector",
+      "VecIntrinBench: Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector",
+      "VecIntrinBench: Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector"
+    ],
+    "490": [
+      "Quantifying the benefits of code hints for refactoring deprecated Java APIs",
+      "Quantifying the benefits of code hints for refactoring deprecated Java APIs",
+      "Quantifying the benefits of code hints for refactoring deprecated Java APIs"
+    ],
+    "502": [
+      "PCART: Automated Repair of Python API Parameter Compatibility Issues",
+      "PCART: Automated Repair of Python API Parameter Compatibility Issues",
+      "PCART: Automated Repair of Python API Parameter Compatibility Issues",
+      "PCART: Automated Repair of Python API Parameter Compatibility Issues"
+    ],
+    "766": [
+      "CODEMENV: Benchmarking Large Language Models on Code Migration",
+      "CODEMENV: Benchmarking Large Language Models on Code Migration"
+    ],
+    "767": [
+      "Practically implementing an LLM-supported collaborative vulnerability remediation process: A team-based approach",
+      "Practically implementing an LLM-supported collaborative vulnerability remediation process: A team-based approach",
+      "Practically implementing an LLM-supported collaborative vulnerability remediation process: a team-based approach"
+    ],
+    "769": [
+      "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair",
+      "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair",
+      "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair",
+      "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair"
+    ],
+    "771": [
+      "Automatic Qiskit Code Refactoring Using Large Language Models",
+      "Automatic Qiskit Code Refactoring Using Large Language Models",
+      "Automatic Qiskit Code Refactoring Using Large Language Models"
+    ],
+    "773": [
+      "How is Google using AI for internal code migrations?",
+      "How is Google Using AI for Internal Code Migrations?",
+      "How is Google using AI for internal code migrations?",
+      "How is Google using AI for internal code migrations?"
+    ],
+    "774": [
+      "Evaluating Large Language Models for Security Bug Report Prediction",
+      "Evaluating Large Language Models for Security Bug Report Prediction",
+      "Evaluating Large Language Models for Security Bug Report Prediction"
+    ],
+    "786": [
+      "Securing LLM-Generated Embedded Firmware Through AI Agent-Driven Validation and Patching",
+      "Securing LLM-Generated Embedded Firmware Through AI Agent-Driven Validation and Patching",
+      "Securing LLM-Generated Embedded Firmware through AI Agent-Driven Validation and Patching",
+      "Securing LLM-Generated Embedded Firmware through AI Agent-Driven Validation and Patching"
+    ],
+    "790": [
+      "Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker",
+      "Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker",
+      "Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker",
+      "Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker"
+    ],
+    "795": [
+      "SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability",
+      "SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability"
+    ],
+    "798": [
+      "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?",
+      "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?",
+      "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?",
+      "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?"
+    ],
+    "799": [
+      "Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation",
+      "Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation"
+    ],
+    "803": [
+      "S3C2 Summit 2025-09: Industry Secure Supply Chain Summit",
+      "S3C2 Summit 2024-09: Industry Secure Software Supply Chain Summit"
+    ],
+    "813": [
+      "Reducing Alert Fatigue via AI-Assisted Negotiation: A Case for Dependabot",
+      "Reducing Alert Fatigue via AI-Assisted Negotiation: A Case for Dependabot",
+      "Reducing Alert Fatigue via AI-Assisted Negotiation: A Case for Dependabot",
+      "Reducing Alert Fatigue via AI-Assisted Negotiation: A Case for Dependabot"
+    ],
+    "863": [
+      "Safer Builders, Risky Maintainers: A Comparative Study of Breaking Changes in Human vs Agentic PRs",
+      "Safer Builders, Risky Maintainers: A Comparative Study of Breaking Changes in Human vs Agentic PRs"
+    ],
+    "873": [
+      "Who Said CVE? How Vulnerability Identifiers Are Mentioned by Humans, Bots, and Agents in Pull Requests",
+      "Who Said CVE? How Vulnerability Identifiers Are Mentioned by Humans, Bots, and Agents in Pull Requests"
+    ],
+    "876": [
+      "AI2Agent: An End-to-End Framework for Deploying AI Projects as Autonomous Agents",
+      "AI2Agent: An End-to-End Framework for Deploying AI Projects as Autonomous Agents",
+      "AI2Agent: An End-to-End Framework for Deploying AI Projects as Autonomous Agents"
+    ],
+    "1168": [
+      "Can LLMs Resolve Dependencies? A Benchmark for Semantic-Versioning Constraint Reasoning and Dependency Resolution",
+      "Can LLMs Resolve Dependencies? A Benchmark for Semantic-Versioning Constraint Reasoning and Dependency Resolution"
+    ],
+    "1171": [
+      "Agentic LLM-Driven C++ Build Automation: An Empirical Study",
+      "Agentic LLM-Driven C++ Build Automation: An Empirical Study"
+    ],
+    "1176": [
+      "SafeFix-Agent: Diff-Only LLM Remediation for Infrastructure-as-Code with Policy, Test, and Sandbox Gates",
+      "SafeFix-Agent: Diff-Only LLM Remediation for Infrastructure-as-Code with Policy, Test, and Sandbox Gates"
+    ],
+    "1177": [
+      "Can LLMs Keep Up with Library Changes? An Exploratory Study on LLM-Generated Code",
+      "Can LLMs Keep Up with Library Changes? An Exploratory Study on LLM-Generated Code"
+    ],
+    "1178": [
+      "Beyond Surface Similarity: Evaluating Structured Output Consistency in Large Language Models",
+      "Beyond Surface Similarity: Evaluating Structured Output Consistency in Large Language Models"
+    ],
+    "1180": [
+      "LLMs for Architectural Refactoring: An Exploratory Study on Monoliths to Microservices",
+      "LLMs for Architectural Refactoring: An Exploratory Study on Monoliths to Microservices"
+    ],
+    "1181": [
+      "AutoFlowgen: A Multi-Agent Framework for Automated Generation of Workflows from Natural Language",
+      "AutoFlowgen: A Multi-Agent Framework for Automated Generation of Workflows from Natural Language"
+    ],
+    "1182": [
+      "LLMs for Microservice Generation: Capabilities, Challenges, and Advancements",
+      "LLMs for Microservice Generation: Capabilities, Challenges, and Advancements"
+    ],
+    "1184": [
+      "Agent-Based Dependency-Related Build Repair",
+      "Agent-Based Dependency-Related Build Repair"
+    ],
+    "1185": [
+      "ShadowPlay: Engineering Defenses Against Role-Based Prompt Injection and Dependency Hallucination in LLM-Powered Development",
+      "ShadowPlay: Engineering Defenses Against Role-Based Prompt Injection and Dependency Hallucination in LLM-Powered Development"
+    ],
+    "1188": [
+      "MalPacDetector: An LLM-Based Malicious NPM Package Detector",
+      "MalPacDetector: An LLM-Based Malicious NPM Package Detector",
+      "MalPacDetector: An LLM-Based Malicious NPM Package Detector"
+    ],
+    "1190": [
+      "Research on Multi-agent Collaborative Technology for Communication Network Operation and Maintenance",
+      "Research on Multi-agent Collaborative Technology for Communication Network Operation and Maintenance"
+    ],
+    "1193": [
+      "Guardnpm: Automated Identification of Malicious NPM Dependencies",
+      "Guardnpm: Automated Identification of Malicious NPM Dependencies"
+    ],
+    "1196": [
+      "SELF-GUARDIAN: Self-Evolving and Explainable AI Framework for Continuous Cybersecurity Assurance in Software Systems",
+      "SELF-GUARDIAN: Self-Evolving and Explainable AI Framework for Continuous Cybersecurity Assurance in Software Systems"
+    ],
+    "1197": [
+      "Fine-Grained Detection of Java Cross-Library Vulnerability Propagation by Extracting Semantic Constraints From Security Patches",
+      "Fine-Grained Detection of Java Cross-Library Vulnerability Propagation by Extracting Semantic Constraints From Security Patches",
+      "Fine-Grained Detection of Java Cross-Library Vulnerability Propagation by Extracting Semantic Constraints From Security Patches",
+      "Fine-Grained Detection of Java Cross-Library Vulnerability Propagation by Extracting Semantic Constraints From Security Patches"
+    ],
+    "1198": [
+      "TRACESEC: Trace-Aware Neuro-Symbolic Vulnerability Reasoning for Software Supply-Chain Security",
+      "TRACESEC: Trace-Aware Neuro-Symbolic Vulnerability Reasoning for Software Supply-Chain Security"
+    ],
+    "1199": [
+      "RAPID: An LLM-Driven Framework for Autonomous Vulnerability Remediation Across Heterogeneous Operating Systems Environments",
+      "RAPID: An LLM-Driven Framework for Autonomous Vulnerability Remediation Across Heterogeneous Operating Systems Environments"
+    ],
+    "1201": [
+      "A Generative AI Framework for Semi-Automated Oracle SQL to BigQuery SQL Code Migration using LLM Driven DAGs and Iterative Refinement",
+      "A Generative AI Framework for Semi-Automated Oracle SQL to BigQuery SQL Code Migration using LLM Driven DAGs and Iterative Refinement"
+    ],
+    "1202": [
+      "A Comprehensive Study of Bug Characteristics on Foundation Language Models",
+      "A Comprehensive Study of Bug Characteristics on Foundation Language Models",
+      "A Comprehensive Study of Bug Characteristics on Foundation Language Models"
+    ],
+    "1204": [
+      "AutoDevFlow: A Multi-Agent System for Automated Development Lifecycle Management",
+      "AutoDevFlow: A Multi-Agent System for Automated Development Lifecycle Management"
+    ],
+    "1209": [
+      "Research on Automotive Open-Source Vulnerability Patch Generation and Assessment Based on Collaborative Large Language Models",
+      "Research on Automotive Open-Source Vulnerability Patch Generation and Assessment Based on Collaborative Large Language Models"
+    ],
+    "1210": [
+      "CoMRA: A Framework for Automated Code Migration via Retrieval-Augmented Generation and Multi-Agent Collaboration",
+      "CoMRA: A Framework for Automated Code Migration via Retrieval-Augmented Generation and Multi-Agent Collaboration"
+    ],
+    "1211": [
+      "Proactive Multi-Agent Systems for Autonomous Code Generation and Software Maintenance",
+      "Proactive Multi-Agent Systems for Autonomous Code Generation and Software Maintenance"
+    ],
+    "1215": [
+      "KconfigHealer: Leveraging Large Language Models for Repairing Linux Kernel Build Failures",
+      "KconfigHealer: Leveraging Large Language Models for Repairing Linux Kernel Build Failures"
+    ],
+    "1216": [
+      "Bridging the Prototype-Production Gap: A Multi-Agent System for Notebooks Transformation",
+      "Bridging the Prototype-Production Gap: A Multi-Agent System for Notebooks Transformation",
+      "Bridging the Prototype-Production Gap: A Multi-Agent System for Notebooks Transformation"
+    ],
+    "1218": [
+      "AgileAgent-Orch: Governance-Aware Agentic Repository Migration within Scaled Agile AWS Pipelines",
+      "AgileAgent-Orch: Governance-Aware Agentic Repository Migration within Scaled Agile AWS Pipelines"
+    ],
+    "1221": [
+      "Web Application Vulnerability Repair Via Context-Aware Fault Localization and Directed Differential Fuzzing",
+      "Web Application Vulnerability Repair Via Context-Aware Fault Localization and Directed Differential Fuzzing"
+    ],
+    "1222": [
+      "Deterministic Automatic Refactoring at Scale",
+      "Deterministic Automatic Refactoring at Scale",
+      "Deterministic Automatic Refactoring at Scale"
+    ],
+    "1223": [
+      "A Systematic Evaluation of AI-Generated Security Patches: Analyzing and Exploiting AI-Generated Fixes",
+      "A Systematic Evaluation of AI-Generated Security Patches: Analyzing and Exploiting AI-Generated Fixes",
+      "A Systematic Evaluation of AI-Generated Security Patches: Analyzing and Exploiting AI-Generated Fixes"
+    ],
+    "1224": [
+      "Comprehensive Web Fuzzer with AI Mitigation and Custom Payload",
+      "Comprehensive Web Fuzzer with AI Mitigation and Custom Payload"
+    ],
+    "1225": [
+      "Towards Early Warning and Migration of High-Risk Dormant Open-Source Software Dependencies",
+      "Towards Early Warning and Migration of High-Risk Dormant Open-Source Software Dependencies",
+      "Towards Early Warning and Migration of High-Risk Dormant Open-Source Software Dependencies"
+    ],
+    "1226": [
+      "CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph",
+      "CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph",
+      "CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph"
+    ],
+    "1229": [
+      "Executable Risk Assessment: A Multi-Modal Approach to Autonomous Security Operations",
+      "Executable Risk Assessment: A Multi-Modal Approach to Autonomous Security Operations"
+    ],
+    "1230": [
+      "An NLP-Based Performance Comparison of ChatGpt, Google Translate, and Deepseek for Bangla-To-English Translation",
+      "An NLP-Based Performance Comparison of ChatGpt, Google Translate, and Deepseek for Bangla-To-English Translation"
+    ],
+    "1232": [
+      "Teacher-Guided Code Generation With API Update",
+      "Teacher-Guided Code Generation With API Update",
+      "Teacher-Guided Code Generation With API Update"
+    ],
+    "1233": [
+      "Forensic Attribution and Targeted Regression Detection for AI-Generated Security Patches",
+      "Forensic Attribution and Targeted Regression Detection for AI-Generated Security Patches"
+    ],
+    "1236": [
+      "PSCVFinder: A Prompt-Tuning Based Framework for Smart Contract Vulnerability Detection",
+      "PSCVFinder: A Prompt-Tuning Based Framework for Smart Contract Vulnerability Detection",
+      "PSCVFinder: A Prompt-Tuning Based Framework for Smart Contract Vulnerability Detection"
+    ],
+    "1237": [
+      "TPL-Benchmark: A Comprehensive Benchmark for Third-Party Library Detection in Android Applications",
+      "TPL-Benchmark: A Comprehensive Benchmark for Third-Party Library Detection in Android Applications"
+    ],
+    "1246": [
+      "Reasoning and Planning with Large Language Models in Code Development",
+      "Reasoning and Planning with Large Language Models in Code Development"
+    ],
+    "1249": [
+      "IoTMigrator: LLM-driven Embedded IoT Code Migration across Different OSes for Cloud-device Integration",
+      "IoTMigrator: LLM-driven Embedded IoT Code Migration across Different OSes for Cloud-device Integration"
+    ],
+    "1258": [
+      "Security Debt in LLM Agent Applications: A Measurement Study of Vulnerabilities and Mitigation Trade-offs",
+      "Security Debt in LLM Agent Applications: A Measurement Study of Vulnerabilities and Mitigation Trade-offs"
+    ],
+    "1268": [
+      "Towards a Cyber Threat Operationalization Engine",
+      "Towards a Cyber Threat Operationalization Engine",
+      "Towards a&#xa0;Cyber Threat Operationalization Engine"
+    ],
+    "1274": [
+      "Beyond decomposition: Hierarchical dependency management in multi-document question answering",
+      "Beyond decomposition: Hierarchical dependency management in multi-document question answering"
+    ],
+    "1275": [
+      "LibShift Search: A similarity-driven model for mapping deprecated Python API methods to current alternatives",
+      "LibShift Search: A similarity-driven model for mapping deprecated Python API methods to current alternatives"
+    ],
+    "1278": [
+      "Secure coding with AI – from detection to repair",
+      "Secure coding with AI - from detection to repair"
+    ],
+    "1281": [
+      "A Zero-Touch Vulnerability Remediation Framework Based on OpenVAS, Threat Intelligence, and RAG-Enhanced Large Language Models",
+      "A Zero-Touch Vulnerability Remediation Framework Based on OpenVAS, Threat Intelligence, and RAG-Enhanced Large Language Models"
+    ],
+    "1284": [
+      "VulFinder: A Multi-Agent-Driven Test Generation Framework for Guiding Vulnerability Reachability Analysis",
+      "VulFinder: A Multi-Agent-Driven Test Generation Framework for Guiding Vulnerability Reachability Analysis"
+    ],
+    "1285": [
+      "Cognitive-inspired xLSTM for multi-agent information retrieval",
+      "Cognitive-inspired xLSTM for multi-agent information retrieval",
+      "Cognitive-inspired xLSTM for multi-agent information retrieval"
+    ],
+    "1296": [
+      "Trace: Test Repair via Agent-based Context Extraction with LLMs",
+      "TRACE: Test Repair via Agent-based Context Extraction with LLMs"
+    ],
+    "1297": [
+      "Cautionary lessons from real-world testing of GPT-4.1 AI for pediatric foreign body aspiration",
+      "Cautionary lessons from real-world testing of GPT-4.1 AI for pediatric foreign body aspiration"
+    ],
+    "1306": [
+      "PRACTICALLY LEVERAGING LLMS FOR MANUFACTURING CYBERSECURITY",
+      "PRACTICALLY LEVERAGING LLMS FOR MANUFACTURING CYBERSECURITY"
+    ],
+    "1314": [
+      "APIMig: A Project-Level Cross-Multi-Version API Migration Framework Based on Evolution Knowledge Graph",
+      "APIMig: A Project-Level Cross-Multi-Version API Migration Framework Based on Evolution Knowledge Graph"
+    ],
+    "1317": [
+      "Adversarial generation method for smart contract fuzz testing seeds guided by chain-based LLM",
+      "Adversarial generation method for smart contract fuzz testing seeds guided by chain-based LLM"
+    ],
+    "1320": [
+      "CrossGuard: Runtime-Adaptive LLM Fuzzing for Cross-Contract Vulnerabilities Detection",
+      "CrossGuard: Runtime-Adaptive LLM Fuzzing for Cross-Contract Vulnerabilities Detection"
+    ],
+    "1322": [
+      "SAFedHDM: Semi-asynchronous federated learning with highlight diffusion model for medical image segmentation",
+      "SAFedHDM: Semi-asynchronous federated learning with highlight diffusion model for medical image segmentation"
+    ],
+    "1323": [
+      "Accurate Identification of Smart Contract Attack Paths Based on Large Language Models",
+      "Accurate Identification of Smart Contract Attack Paths Based on Large Language Models",
+      "Accurate Identification of Smart Contract Attack Paths Based on Large Language Models"
+    ],
+    "1333": [
+      "A recommendation system for predicting dependencies among software changes insights from an empirical study on OpenStack",
+      "A recommendation system for predicting dependencies among software changes insights from an empirical study on OpenStack",
+      "A recommendation system for predicting dependencies among software changes insights from an empirical study on OpenStack"
+    ],
+    "1335": [
+      "PDCG-RuleDetector: parameterized data-flow call graphs meet large language models for malicious NPM package detection",
+      "PDCG-RuleDetector: parameterized data-flow call graphs meet large language models for malicious NPM package detection",
+      "PDCG-RuleDetector: parameterized data-flow call graphs meet large language models for malicious NPM package detection"
+    ],
+    "1339": [
+      "Magneto: A Step-Wise Approach to Exploit Vulnerabilities in Dependent Libraries via LLM-Empowered Directed Fuzzing",
+      "MAGNETO: A Step-Wise Approach to Exploit Vulnerabilities in Dependent Libraries via LLM-Empowered Directed Fuzzing"
+    ],
+    "1346": [
+      "Test Script Repair of Deep Learning Library Testing",
+      "Test Script Repair of Deep Learning Library Testing"
+    ],
+    "1351": [
+      "AMRerank: A Framework for Library Migration Recommendations Using Multi-Agent Analysis and Data-Driven Reranking",
+      "AMRerank: A Framework for Library Migration Recommendations Using Multi-Agent Analysis and Data-Driven Reranking"
+    ],
+    "1359": [
+      "Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis",
+      "Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis"
+    ],
+    "1367": [
+      "APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation",
+      "APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation"
+    ],
+    "1368": [
+      "A systematic exploration of C-to-rust code translation based on large language models: prompt strategies and automated repair",
+      "A systematic exploration of C-to-rust code translation based on large language models: prompt strategies and automated repair",
+      "A systematic exploration of C-to-rust code translation based on large language models: prompt strategies and automated repair"
+    ],
+    "1386": [
+      "MinsC2Rust: LLM-driven project-level code migration from C to safe Rust",
+      "MinsC2Rust: LLM-driven project-level code migration from C to safe Rust",
+      "MinsC2Rust: LLM-driven project-level code migration from C to safe Rust"
+    ],
+    "1388": [
+      "Proceedings - 2025 40th IEEE/ACM International Conference on Automated Software Engineering, ASE 2025",
+      "Proceedings - 2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops, ASEW 2025"
+    ],
+    "1392": [
+      "BuilDroid: A Self-Correcting LLM Agent for Automated Android Builds",
+      "BuilDroid: A Self-Correcting LLM Agent for Automated Android Builds"
+    ],
+    "1393": [
+      "Moirai: Dependency-Impact-Based Communication Scheduling for Multi-job Distributed Deep Learning Cluster",
+      "Moirai: Dependency-Impact-Based Communication Scheduling for&#xa0;Multi-job Distributed Deep Learning Cluster"
+    ],
+    "1396": [
+      "Machine Learning-based CVSS scoring methodology for IoT threats",
+      "Machine Learning-based CVSS scoring methodology for IoT threats"
+    ],
+    "1399": [
+      "Generating Secure Artificial Intelligence Model Source Code: A Reinforcement Learning Approach",
+      "Generating Secure Artificial Intelligence Model Source Code: A Reinforcement Learning Approach"
+    ],
+    "1405": [
+      "The Enterprise RAG Paradox: An Industrial Study of Governed and Continuous Documentation Pipelines For LLM-Assisted Code Generation",
+      "The Enterprise RAG Paradox: An Industrial Study of&#xa0;Governed and&#xa0;Continuous Documentation Pipelines For LLM-Assisted Code Generation"
+    ],
+    "1406": [
+      "From C to Rust: Evaluating LLM Capabilities in Transpilation Through Compilation Errors",
+      "From C to Rust: Evaluating LLM Capabilities in Transpilation Through Compilation Errors",
+      "From C to&#xa0;Rust: Evaluating LLM Capabilities in&#xa0;Transpilation Through Compilation Errors"
+    ],
+    "1409": [
+      "A Systematic Evaluation of Large Language Models in API Mapping",
+      "A Systematic Evaluation of Large Language Models in API Mapping"
+    ],
+    "1410": [
+      "Interactive LLM-Driven Framework for Cross-Architecture Code Migration: Balancing Efficiency, Accuracy, and Explainability",
+      "Interactive LLM-Driven Framework for Cross-Architecture Code Migration: Balancing Efficiency, Accuracy, and Explainability"
+    ],
+    "1414": [
+      "SOAR: Evaluating the reasoning capabilities of large language models on IT operational data",
+      "SOAR: Evaluating the reasoning capabilities of large language models on IT operational data"
+    ],
+    "1415": [
+      "AutoML-Pipeline: A RAG-Enhanced Code Generation Framework With Pre-Validation for Cloud-Native Machine Learning Workflows",
+      "AutoML-Pipeline: A RAG-Enhanced Code Generation Framework With Pre-Validation for Cloud-Native Machine Learning Workflows"
+    ],
+    "1419": [
+      "ModelHamiltonian: A Python-scriptable library for generating 0-, 1-, and 2-electron integrals",
+      "ModelHamiltonian: A Python-scriptable library for generating 0-, 1-, and 2-electron integrals"
+    ],
+    "1421": [
+      "Effectiveness of Generative Artificial Intelligence-Driven Responses to Patient Concerns in Long-Term Opioid Therapy: Cross-Model Assessment",
+      "Effectiveness of Generative Artificial Intelligence-Driven Responses to Patient Concerns in Long-Term Opioid Therapy: Cross-Model Assessment"
+    ],
+    "1426": [
+      "Exploring Typo Squatting Threats in the Hugging Face Ecosystem",
+      "Exploring Typo Squatting Threats in the Hugging Face Ecosystem"
+    ],
+    "1428": [
+      "Skeleton-Guided-Translation: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation",
+      "Skeleton-Guided-Translation: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation"
+    ],
+    "1430": [
+      "Repair2Skill: A Vision-Language-Action Framework for Robotic Furniture Repair",
+      "Repair2Skill: A Vision-Language-Action Framework for Robotic Furniture Repair"
+    ],
+    "1431": [
+      "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
+      "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
+      "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data"
+    ],
+    "1432": [
+      "Applying generative artificial intelligence for vulnerability fixing in a proprietary software ecosystem",
+      "Applying generative artificial intelligence for vulnerability fixing in a proprietary software ecosystem"
+    ],
+    "1438": [
+      "“Space to see the future”? A political economy analysis of child and adolescent mental health and well-being in Ethiopia including routes for change",
+      "Space to see the future? A political economy analysis of child and adolescent mental health and well-being in Ethiopia including routes for change"
+    ],
+    "1441": [
+      "Cognitive-Aware Plugin for Vulnerability Feedback",
+      "Cognitive-Aware Plugin for Vulnerability Feedback"
+    ],
+    "1442": [
+      "Enhancing Edge Microservice Deployment Efficiency with an LLM-Empowered Multi-agent Framework",
+      "Enhancing Edge Microservice Deployment Efficiency with&#xa0;an&#xa0;LLM-Empowered Multi-agent Framework"
+    ],
+    "1443": [
+      "A Feasibility Analysis of Quantum-Safe 5G Roaming",
+      "A Feasibility Analysis of Quantum-Safe 5G Roaming"
+    ],
+    "1444": [
+      "Towards the Identification of Vulnerability-Fixing Code Lines in OSS Security Patches Using Lexical Code Segmentation and LLMs",
+      "Towards the Identification of Vulnerability-Fixing Code Lines in OSS Security Patches Using Lexical Code Segmentation and LLMs",
+      "Towards the&#xa0;Identification of&#xa0;Vulnerability-Fixing Code Lines in&#xa0;OSS Security Patches Using Lexical Code Segmentation and&#xa0;LLMs"
+    ],
+    "1457": [
+      "KGAgent4CTI: unlocking the power of LLM in threat intelligence",
+      "KGAgent4CTI: unlocking the power of LLM in threat intelligence",
+      "KGAgent4CTI: unlocking the power of LLM in threat intelligence"
+    ],
+    "1467": [
+      "PRIME: An evaluation framework for protein representation inference and generalization in viral mutation space",
+      "PRIME: An evaluation framework for protein representation inference and generalization in viral mutation space"
+    ],
+    "1470": [
+      "State of the Art of the Security of Code Generated by LLMs: A Multivocal Literature Review",
+      "State of the Art of the Security of Code Generated by LLMs: A Multivocal Literature Review"
+    ],
+    "1479": [
+      "Refactoring techniques for software vulnerabilities",
+      "Refactoring techniques for software vulnerabilities"
+    ],
+    "1480": [
+      "SafeCodeRL: Security-Constrained Multi-Agent Reinforcement Learning for Trustworthy LLM-Generated IoT/CPS Software",
+      "SafeCodeRL: Security-Constrained Multi-Agent Reinforcement Learning for Trustworthy LLM-Generated IoT/CPS Software"
+    ],
+    "1486": [
+      "Taxonomy of challenges influencing secure code generation using LLMs: An integrated approach of systematic literature review and F-AHP",
+      "Taxonomy of challenges influencing secure code generation using LLMs: An integrated approach of systematic literature review and F-AHP"
+    ],
+    "1487": [
+      "Func: reducing the impact of Android framework evolution on malware detection",
+      "Func: reducing the impact of Android framework evolution on malware detection",
+      "<span>Func</span>: reducing the impact of Android framework evolution on malware detection"
+    ]
+  }
+}
