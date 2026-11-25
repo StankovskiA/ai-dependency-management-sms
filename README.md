@@ -10,6 +10,7 @@ agentic AI for software dependency management.
 | File | Content |
 |---|---|
 | `extraction.csv` | one row per included paper (88 rows), with extracted fields and normalized complexity constructs |
+| `cost_extraction.csv` | one row per included paper (88 rows), six operational-effort (cost-proxy) signals |
 | `screening.csv` | title/abstract, full-text and snowball decisions |
 | `search_funnel.json` | identification, deduplication and screening counts |
 | `dedup_report.json` | per-source counts and duplicate groups behind the funnel |
@@ -59,7 +60,7 @@ blank verdicts, `R00011` and `R01519`, are EC2 (full text unavailable), not unde
 - `extraction_status`: `full` for the 79 database studies (41-field extraction, reduced here to
   the substantive fields), `targeted` for the 9 snowball studies.
 - The 9 snowball studies have blank non-targeted fields. They were extracted only for the
-  complexity constructs used in the review's gap analysis.
+  complexity constructs and the six cost signals used in the gap analysis.
 - `complexity_constructs`: JSON list of `{class, nature, construct}` entries for the paper.
 - `n_complexity_constructs`: length of that list.
 
@@ -78,6 +79,30 @@ The expected totals are:
 The 16 papers with no construct are not padded with empty rows: the source table contains 16
 `(none)` placeholders, which are omitted here. The truthful totals are 312 construct rows and 312
 distinct non-empty constructs, not 328/313.
+
+## Cost extraction table
+
+`cost_extraction.csv` is a **separate table**, one row per included paper, keyed by `record_id`.
+The six signals are `tokens`, `monetary_cost`, `wall_clock`, `agent_steps`, `human_effort`, and
+`hardware`; each is `1` when the paper reports a measurement and `0` otherwise. A mention,
+motivation, or future-work statement does not count.
+
+| Quantity | Value |
+|---|---:|
+| `tokens` | 23 |
+| `monetary_cost` | 19 |
+| `wall_clock` | 27 |
+| `agent_steps` | 31 |
+| `human_effort` | 18 |
+| `hardware` | 32 |
+| Papers reporting no signal | 22 |
+| Papers reporting money + human effort | 5 |
+
+The six signals are defined in the **unified extraction form** used for the study; the block is
+summarized here so the CSV can be validated on its own. The per-record flags are also released
+with the cost-attribution study. The signals are kept out of `extraction.csv` so that each table
+validates independently: `extraction.csv` is the mapping extraction, `cost_extraction.csv` is the
+operational-effort extraction, and both join on `record_id`.
 
 ## Screening table
 
@@ -98,8 +123,8 @@ Requires Python 3.11+ and only the standard library:
 python verify.py
 ```
 
-The verifier recomputes every number above from `extraction.csv`, `screening.csv`, and
-`search_funnel.json`, and exits nonzero on any mismatch.
+The verifier recomputes every number above from `extraction.csv`, `cost_extraction.csv`,
+`screening.csv`, and `search_funnel.json`, and exits nonzero on any mismatch.
 
 ## Method
 
@@ -114,7 +139,9 @@ The verifier recomputes every number above from `extraction.csv`, `screening.csv
 - **Snowballing:** backward and forward from the 79 database includes; 687 candidates, 286 new
   since 2023, 11 carried to full text, 9 included.
 - **Extraction:** the 79 database studies received the full extraction; the 9 snowball studies
-  received a targeted extraction of complexity constructs.
+  received a targeted extraction of complexity constructs and the six cost signals. The mapping
+  fields and the cost signals share one form; the cost signals are released as the separate
+  `cost_extraction.csv`.
 
 The review is a mapping study, not an SLR with quality appraisal and effectiveness synthesis.
 Full texts, abstracts and verbatim evidence quotes are not redistributed.

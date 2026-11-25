@@ -39,6 +39,20 @@ check("snowball rows", sum(1 for r in extraction if r["arm"] == "snowball"), 9)
 check("full extraction rows", sum(1 for r in extraction if r["extraction_status"] == "full"), 79)
 check("targeted extraction rows", sum(1 for r in extraction if r["extraction_status"] == "targeted"), 9)
 
+# ---------------------------------------------------------------- cost extraction (separate table)
+cost = read_csv("cost_extraction.csv")
+check("cost rows", len(cost), 88)
+check("cost unique ids", len({r["record_id"] for r in cost}), 88)
+check("cost ids match extraction", {r["record_id"] for r in cost} == {r["record_id"] for r in extraction}, True)
+cost_fields = ["tokens", "monetary_cost", "wall_clock", "agent_steps", "human_effort", "hardware"]
+expected_cost = {"tokens": 23, "monetary_cost": 19, "wall_clock": 27,
+                 "agent_steps": 31, "human_effort": 18, "hardware": 32}
+for f in cost_fields:
+    check(f"cost {f}", sum(int(r[f]) for r in cost), expected_cost[f])
+check("cost no signal", sum(1 for r in cost if not any(int(r[f]) for f in cost_fields)), 22)
+check("cost money and effort", sum(1 for r in cost if int(r["monetary_cost"]) and int(r["human_effort"])), 5)
+check("cost binary values", all(int(r[f]) in (0, 1) for r in cost for f in cost_fields), True)
+
 # complexity constructs
 constructs = []
 for r in extraction:
