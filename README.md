@@ -10,6 +10,7 @@ agentic AI for software dependency management.
 | File | Content |
 |---|---|
 | `extraction.csv` | one row per included paper (88 rows), with extracted fields and normalized complexity constructs |
+| `benchmarks.csv` | one row per (paper, benchmark) pair (96 rows), derived from the extraction table |
 | `cost_extraction.csv` | one row per included paper (88 rows), six operational-effort (cost-proxy) signals |
 | `screening.csv` | title/abstract, full-text and snowball decisions |
 | `search_funnel.json` | identification, deduplication and screening counts |
@@ -79,6 +80,26 @@ The expected totals are:
 The 16 papers with no construct are not padded with empty rows: the source table contains 16
 `(none)` placeholders, which are omitted here. The truthful totals are 312 construct rows and 312
 distinct non-empty constructs, not 328/313.
+
+## Benchmark table
+
+`benchmarks.csv` is a **separate table**, one row per (paper, benchmark) pair, keyed by
+`record_id`. It is derived from the `benchmarks` field of `extraction.csv`; a paper that names
+several benchmarks contributes several rows, and a paper that names none contributes none.
+
+| Quantity | Value |
+|---|---:|
+| Rows | 96 |
+| Papers naming at least one benchmark | 61 |
+| Distinct benchmark keys | 72 |
+
+- `benchmark`: the value as extracted, verbatim.
+- `benchmark_key`: lowercase, punctuation normalised, for grouping and joins.
+- `task`, `arm`, `ecosystem`, `study_year`, `title`: copied from `extraction.csv` so the table can
+  be read on its own.
+
+Most frequent benchmark: PyMigBench (6 papers), followed by BUMP (4) and HumanEval, HG2.9K and
+SWE-bench (3 each). The table is the reference behind the benchmark counts in the manuscript.
 
 ## Cost extraction table
 

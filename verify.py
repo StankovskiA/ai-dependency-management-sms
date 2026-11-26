@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -52,6 +53,29 @@ for f in cost_fields:
 check("cost no signal", sum(1 for r in cost if not any(int(r[f]) for f in cost_fields)), 22)
 check("cost money and effort", sum(1 for r in cost if int(r["monetary_cost"]) and int(r["human_effort"])), 5)
 check("cost binary values", all(int(r[f]) in (0, 1) for r in cost for f in cost_fields), True)
+
+# ---------------------------------------------------------------- benchmark table (separate table)
+def benchmark_key(value: str) -> str:
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", value.lower())).strip("-")
+
+
+benchmarks = read_csv("benchmarks.csv")
+check("benchmark rows", len(benchmarks), 96)
+check("studies with a benchmark", len({r["record_id"] for r in benchmarks}), 61)
+check("distinct benchmark keys", len({r["benchmark_key"] for r in benchmarks}), 72)
+check("benchmark ids match extraction",
+      {r["record_id"] for r in benchmarks} <= {r["record_id"] for r in extraction}, True)
+check("benchmark coverage",
+      {r["record_id"] for r in benchmarks} ==
+      {r["record_id"] for r in extraction if (r["benchmarks"] or "").strip()}, True)
+check("benchmark values non-empty", all(r["benchmark"].strip() for r in benchmarks), True)
+check("benchmark keys normalised",
+      all(r["benchmark_key"] == benchmark_key(r["benchmark"]) for r in benchmarks), True)
+check("no duplicate study-benchmark",
+      len({(r["record_id"], r["benchmark_key"]) for r in benchmarks}), len(benchmarks))
+check("PyMigBench studies", sum(1 for r in benchmarks if r["benchmark_key"] == "pymigbench"), 6)
+check("TimeMachine-bench present", any(r["benchmark_key"].startswith("timemachine-bench") for r in benchmarks), True)
+check("DEPBENCH present", any(r["benchmark_key"] == "depbench" for r in benchmarks), True)
 
 # complexity constructs
 constructs = []

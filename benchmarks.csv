@@ -1,0 +1,97 @@
+record_id,benchmark,benchmark_key,task,arm,ecosystem,study_year,title
+R00004,deprecated API usage updating benchmark,deprecated-api-usage-updating-benchmark,migration,database,pypi_python,2026,Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions
+R00009,EDAPIBench,edapibench,upgrade,database,['pypi_python'],2026,Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations
+R00010,Amazon internal benchmark (1000 Java 8 apps upgraded to Java 17),amazon-internal-benchmark-1000-java-8-apps-upgraded-to-java-17,migration,database,maven_java,2024,Evaluating Human-AI Partnership for LLM-based Code Migration
+R00015,MigrationBench,migrationbench,migration,database,maven_java,2026,MigrationBench: Repository-Level Code Migration Benchmark from Java 8
+R00019,constructed leakage-free benchmark,constructed-leakage-free-benchmark,migration,database,pypi_python,2026,Pig: Leveraging Large Language Models for Python Library Migrations
+R00019,PyMigBench 2.0,pymigbench-2-0,migration,database,pypi_python,2026,Pig: Leveraging Large Language Models for Python Library Migrations
+R00025,HG2.9K,hg2-9k,resolution,database,pypi_python,2026,MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution
+R00035,FreshBrew,freshbrew,migration,database,maven_java,2026,FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration
+R00040,HG2.9K,hg2-9k,resolution,database,pypi_python,2026,Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation
+R00042,JMigBench,jmigbench,migration,database,maven_java,2026,JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)
+R00050,BUMP,bump,breaking_change,database,['maven_java'],2026,Byam: Fixing Breaking Dependency Updates with Large Language Models
+R00054,Gistable HG2.9K,gistable-hg2-9k,conflict_repair,database,pypi_python,2025,The Last Dependency Crusade: Solving Python Dependency Conflicts with LLMs
+R00057,"three synthetic repositories covering upgrades 3.1->3.2, 3.2->3.3, 3.3->3.4",three-synthetic-repositories-covering-upgrades-3-1-3-2-3-2-3-3-3-3-3-4,upgrade,database,maven_java,2025,LLM Agents for Automated Dependency Upgrades
+R00065,SemVerBench,semverbench,resolution,database,npm_js; pypi_python; cargo_rust,2026,SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics
+R00075,DepBench,depbench,breaking_change,database,npm_js; pypi_python; maven_java; cargo_rust,2026,DepRepair: LLM-Based Source-Code Repair for Dependency Breaking Changes
+R00077,HG2.9K,hg2-9k,conflict_repair,database,['pypi_python'],2026,Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution
+R00084,BUMP,bump,breaking_change,database,maven_java,2026,Agentic Generation of AST Transformation Rules for Fixing Breaking Updates
+R00094,manually annotated ground truth dataset (344 Java / 242 Python genuine update instances),manually-annotated-ground-truth-dataset-344-java-242-python-genuine-update-instances,upgrade,database,maven_java; pypi_python,2026,Bridge: Automatically Mining Ecosystem-Scale API Update Mappings and Client Update Instances
+R00098,SWE-bench,swe-bench,migration,database,pypi_python,2026,TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks
+R00098,TimeMachine-bench,timemachine-bench,migration,database,pypi_python,2026,TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks
+R00098,TimeMachine-bench-Verified,timemachine-bench-verified,migration,database,pypi_python,2026,TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks
+R00116,CodeUpdateArena,codeupdatearena,breaking_change,database,pypi_python,2025,GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+R00116,GitChameleon 2.0,gitchameleon-2-0,breaking_change,database,pypi_python,2025,GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+R00116,LiveCodeBench,livecodebench,breaking_change,database,pypi_python,2025,GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+R00116,PyMigBench,pymigbench,breaking_change,database,pypi_python,2025,GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+R00116,SWE-Bench,swe-bench,breaking_change,database,pypi_python,2025,GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+R00117,AndroEvolve benchmark (360 deprecated API usages),androevolve-benchmark-360-deprecated-api-usages,migration,database,other,2026,Automated Update of Android Deprecated API Usages With Large Language Models
+R00119,PYMIGBENCH,pymigbench,migration,database,pypi_python,2025,An Empirical Study of Python Library Migration Using Large Language Models
+R00123,HumanEval,humaneval,migration,database,['pypi_python'],2024,VersiCode: Towards Version-controllable Code Generation
+R00123,MBPP,mbpp,migration,database,['pypi_python'],2024,VersiCode: Towards Version-controllable Code Generation
+R00123,VersiCode,versicode,migration,database,['pypi_python'],2024,VersiCode: Towards Version-controllable Code Generation
+R00127,PyMigBench,pymigbench,migration,database,pypi_python,2025,MigrateLib: a tool for end-to-end Python library migration
+R00129,LibEval,libeval,migration,database,pypi_python,2025,LibRec: Benchmarking Retrieval-Augmented LLMs for Library Migration Recommendations
+R00153,"Synthetic API-modification benchmark (2,040 problem-API pairs, 140 synthetic APIs)",synthetic-api-modification-benchmark-2-040-problem-api-pairs-140-synthetic-apis,migration,database,pypi_python,2025,Understanding Robustness of Model Editing in Code LLMs
+R00156,"API-evolution code-generation benchmark of 270 updated APIs from NumPy, Pandas, scikit-learn, SciPy, JAX, Keras, TensorFlow, PyTorch (versions released after Dec 2023)",api-evolution-code-generation-benchmark-of-270-updated-apis-from-numpy-pandas-scikit-learn-scipy-jax-keras-tensorflow-pytorch-versions-released-after-dec-2023,migration,database,pypi_python,2026,When LLMs Lag Behind: Knowledge Conflicts from Evolving APIs in Code Generation
+R00173,RustEvo2,rustevo2,breaking_change,database,cargo_rust,2025,RustEvo^2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation
+R00184,Deprecated API benchmark (Wang et al.),deprecated-api-benchmark-wang-et-al,migration,database,pypi_python,2026,Towards Knowledge Alignment in Code LLMs: Contrastive Unlearning for Evolving APIs
+R00184,HumanEval,humaneval,migration,database,pypi_python,2026,Towards Knowledge Alignment in Code LLMs: Contrastive Unlearning for Evolving APIs
+R00209,nine migration tasks,nine-migration-tasks,migration,database,pypi_python,2026,SPELL: Synthesis of Programmatic Edits using LLMs
+R00213,Synthetic pre-/post-quantum code-pair migration benchmark with category-specific functional tests,synthetic-pre-post-quantum-code-pair-migration-benchmark-with-category-specific-functional-tests,migration,database,pypi_python,2026,Empirical Evaluation of Large Language Models for Migration of Code Fragments to Post-Quantum Cryptography
+R00222,Inlining,inlining,migration,database,pypi_python,2024,Automating Code Adaptation for MLOps -- A Benchmarking Study on LLMs
+R00222,Translation,translation,migration,database,pypi_python,2024,Automating Code Adaptation for MLOps -- A Benchmarking Study on LLMs
+R00231,GitChameleon,gitchameleon,breaking_change,database,pypi_python,2024,GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models
+R00242,CodeUpdateArena,codeupdatearena,other,database,pypi_python,2024,CodeUpdateArena: Benchmarking Knowledge Editing on API Updates
+R00294,Dataset-A,dataset-a,migration,database,other,2025,Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution
+R00340,CodeUpdateArena,codeupdatearena,migration,database,pypi_python,2026,ReCode: Updating Code API Knowledge with Reinforcement Learning
+R00340,HumanEval+,humaneval,migration,database,pypi_python,2026,ReCode: Updating Code API Knowledge with Reinforcement Learning
+R00375,CoderEval,codereval,other,database,pypi_python; other,2024,HumanEvo: An Evolution-aware Benchmark for More Realistic Evaluation of Repository-level Code Generation
+R00375,EvoCodeBench,evocodebench,other,database,pypi_python; other,2024,HumanEvo: An Evolution-aware Benchmark for More Realistic Evaluation of Repository-level Code Generation
+R00375,HumanEvo,humanevo,other,database,pypi_python; other,2024,HumanEvo: An Evolution-aware Benchmark for More Realistic Evaluation of Repository-level Code Generation
+R00375,RepoBench,repobench,other,database,pypi_python; other,2024,HumanEvo: An Evolution-aware Benchmark for More Realistic Evaluation of Repository-level Code Generation
+R00375,RepoEval,repoeval,other,database,pypi_python; other,2024,HumanEvo: An Evolution-aware Benchmark for More Realistic Evaluation of Repository-level Code Generation
+R00430,VersiCode,versicode,migration,database,pypi_python,2026,KCoEvo: A Knowledge Graph Augmented Framework for Evolutionary Code Generation
+R00463,Oracle JDK 15 deprecated method refactoring tasks,oracle-jdk-15-deprecated-method-refactoring-tasks,migration,database,maven_java,2025,Quantifying the benefits of code hints for refactoring deprecated Java APIs
+R00498,LibEvoBench,libevobench,breaking_change,database,pypi_python,2026,LibEvoBench: Probing Temporal Knowledge Stratification in Code Generation Models
+R00645,Porting Benchmark,porting-benchmark,vuln_driven_update,database,other,2026,Benchmarking Automated Security Patch Backporting: How Far Are We?
+R00738,BUMP,bump,breaking_change,database,maven_java,2026,BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests
+R00739,CODE MENV,code-menv,migration,database,pypi_python; maven_java,2025,CODEMENV: Benchmarking Large Language Models on Code Migration
+R00741,HumanEval,humaneval,migration,database,pypi_python,2025,What a diff makes: automating code migration with large language models
+R00761,API Misuse (Galappaththi et al.),api-misuse-galappaththi-et-al,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00761,BugsInPy,bugsinpy,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00761,Defects4J,defects4j,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00761,JMigBench,jmigbench,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00761,ManySStuBs4J,manysstubs4j,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00761,PyMigBench,pymigbench,migration,database,pypi_python; maven_java,2026,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+R00820,BeyondSWE,beyondswe,migration,database,pypi_python,2026,BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?
+R00820,SWE-bench-Verified,swe-bench-verified,migration,database,pypi_python,2026,BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?
+R00833,BeyondSWE,beyondswe,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,BUMP,bump,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,DEPBENCH,depbench,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,FreshBrew,freshbrew,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,MigrationBench,migrationbench,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,PyMigBench,pymigbench,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00833,SWE-bench,swe-bench,upgrade,database,"['npm_js', 'maven_java', 'go', 'cargo_rust', 'pypi_python']",2026,Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?
+R00918,DSH version-pinned plugin-migration tasks (22 static),dsh-version-pinned-plugin-migration-tasks-22-static,migration,database,npm_js; other,2026,Evaluating Agent Skills for Version-Specific Plugin Migration: A Retrospective Study
+R00918,report-judge-v2 rubric,report-judge-v2-rubric,migration,database,npm_js; other,2026,Evaluating Agent Skills for Version-Specific Plugin Migration: A Retrospective Study
+R00935,GAMESS/Jenkins continuous-integration suite,gamess-jenkins-continuous-integration-suite,migration,database,other,2026,An Agentic Workflow for Legacy HPC Modernization: Converting the Two-Electron-Integral Core of GAMESS
+R00935,GAMESS standard test suite (49 tests),gamess-standard-test-suite-49-tests,migration,database,other,2026,An Agentic Workflow for Legacy HPC Modernization: Converting the Two-Electron-Integral Core of GAMESS
+R01132,BackportBench,backportbench,vuln_driven_update,database,"['npm_js', 'pypi_python']",2026,VeriPort: Automated and Verified Patch Backporting at Scale
+R01132,CVEPatchBench,cvepatchbench,vuln_driven_update,database,"['npm_js', 'pypi_python']",2026,VeriPort: Automated and Verified Patch Backporting at Scale
+R01133,DEPRESOLVE-BENCH,depresolve-bench,resolution,database,npm_js,2026,Can LLMs Resolve Dependencies? A Benchmark for Semantic-Versioning Constraint Reasoning and Dependency Resolution
+R01139,PyMigBench,pymigbench,migration,database,pypi_python,2026,Can LLMs Keep Up with Library Changes? An Exploratory Study on LLM-Generated Code
+R01144,290 injected missing-dependency failure scenarios (removed non-test dependency + exclusion of transitive),290-injected-missing-dependency-failure-scenarios-removed-non-test-dependency-exclusion-of-transitive,other,database,maven_java,2026,Agent-Based Dependency-Related Build Repair
+R01162,BackportBench,backportbench,vuln_driven_update,database,pypi_python; maven_java; npm_js,2026,Benchmarking Open-Weight LLMs for Security Backporting
+R01164,Qt4-to-Qt5 migration benchmark,qt4-to-qt5-migration-benchmark,migration,database,multi; other; pypi_python; maven_java,2026,CoMRA: A Framework for Automated Code Migration via Retrieval-Augmented Generation and Multi-Agent Collaboration
+R01170,AWS Code Migration Benchmark,aws-code-migration-benchmark,migration,database,multi,2026,AgileAgent-Orch: Governance-Aware Agentic Repository Migration within Scaled Agile AWS Pipelines
+R01180,HumanEval-format API update benchmark,humaneval-format-api-update-benchmark,breaking_change,database,['pypi_python'],2025,Teacher-Guided Code Generation With API Update
+R01220,Lucene 4.0.0 to 10.1.0,lucene-4-0-0-to-10-1-0,migration,database,maven_java,2025,APIMig: A Project-Level Cross-Multi-Version API Migration Framework Based on Evolution Knowledge Graph
+R01244,GT2014,gt2014,migration,database,maven_java,2026,AMRerank: A Framework for Library Migration Recommendations Using Multi-Agent Analysis and Data-Driven Reranking
+R01256,CRYPTOUPDATE-MINI-30,cryptoupdate-mini-30,upgrade,database,,2026,VeriCrypt-Agent: Evidence-Grounded Multi-Agent Verification for Cryptographic Dependency Updates
+R01274,cross-language API mapping benchmark,cross-language-api-mapping-benchmark,migration,database,pypi_python; maven_java; nuget_csharp,2026,A Systematic Evaluation of Large Language Models in API Mapping
+R01274,cross-library API mapping benchmark,cross-library-api-mapping-benchmark,migration,database,pypi_python; maven_java; nuget_csharp,2026,A Systematic Evaluation of Large Language Models in API Mapping
+R01321,Drebin,drebin,other,database,['other'],2026,Func: reducing the impact of Android framework evolution on malware detection
+R01321,FAMCF,famcf,other,database,['other'],2026,Func: reducing the impact of Android framework evolution on malware detection
+R01321,Mamadroid,mamadroid,other,database,['other'],2026,Func: reducing the impact of Android framework evolution on malware detection
+R01321,Xmal,xmal,other,database,['other'],2026,Func: reducing the impact of Android framework evolution on malware detection
